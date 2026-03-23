@@ -1,0 +1,29 @@
+/* p {
+  color: red;
+  background-color: chocolate;
+}
+.greenp {
+  color: green;
+  background-color: aliceblue;
+  border: 4px solid yellow;
+}
+h1 {
+  color: green;
+  background: red;
+} */
+
+* {
+  font-family: monospace;
+}
+
+p {
+  text-transform: capitalize;
+  color: green;
+}
+
+h1 {
+  font-style: italic;
+  text-shadow:
+    rgb(38, 0, 255) 2px 2px 2px,
+    red -6px -6px; /*องศา หนา เบลอ*/
+}
