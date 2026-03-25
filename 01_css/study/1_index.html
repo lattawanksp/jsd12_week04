@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-101</title>
+    <link rel="stylesheet" href="/01_css/study/1_style.css" />
+    <!--
+    <style>
+      h1 {
+        color: aqua !important;
+      }
+    </style> -->
+    <!--เชื่อมcss ใส่ทั้ง rel=stylesheet ทั้ง href-->
+
+    <!--2. EXERCISE internal line-->
+    <style>
+      h2 {
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--inline css-->
+    <!--ถ้ามีสีทับกันเยอะๆ มันจะเลือก inline ก่อน -> -->
+    <!-- <h1 id="hellojsd" class="hellotext" style="color: pink">สวัสดี JSD12</h1>
+    
+
+    <p class="greenp">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consectetur
+      ipsa iste temporibus nulla fugiat!
+    </p>
+
+    
+    <div class="card">
+      <div class="card__title">title</div>
+      <div class="card__content card__content--light"></div>
+    </div> -->
+
+    <h1 style="color: red">
+      this is <span style="color: pink">inline Style</span>
+      <!--1. EXERCISE inline-->
+    </h1>
+    <h2>this is internal Style</h2>
+    <p>this is External Style</p>
+
+    <a
+      href="https://www.google.com/search?q=%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2&sca_esv=6b7c40959298e02e&sxsrf=ANbL-n4KSqB5f7w-0gEk4lmrHFCnQdKOMQ%3A1774320950411&source=hp&ei=Nv3BadeAF4ei1e8P54mqyQ8&iflsig=AFdpzrgAAAAAacILRl4fk1W653stVA5AMjSolK9asPDN&ved=0ahUKEwjX89vPxLeTAxUHUfUHHeeEKvkQ4dUDCB4&uact=5&oq=%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2&gs_lp=Egdnd3Mtd2l6IiHguILguYnguLLguKfguIHguKPguLDguYDguJ7guKPguLIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESLofUBRYtR1wAngAkAEAmAF9oAH3CKoBAzYuNrgBA8gBAPgBAZgCDqACmwmoAgrCAg0QIxjJAhjwBRjqAhgnwgIHECMY6gIYJ8ICChAjGPAFGOoCGCfCAgQQIxgnwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICChAjGPAFGMkCGCfCAg4QLhiABBjHARivARiOBcICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAgsQLhiABBjHARivAcICCBAuGLEDGIAEwgIEEAAYA5gDBvEFov-6WCY0uC-SBwM4LjagB-6eAbIHAzYuNrgHkgnCBwYwLjEzLjHIBxiACAE&sclient=gws-wiz"
+      >this is a link</a
+    >
+
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>END</li>
+    </ul>
+
+    <ol>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>END/li></li>
+    </ol>
+
+    <div>
+      <p class="bold">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>
+        Lorem ipsum dolor sit amet, <span>consectetur</span> adipisicing elit.
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+  </body>
+</html>

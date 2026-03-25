@@ -27,3 +27,32 @@ h1 {
     rgb(38, 0, 255) 2px 2px 2px,
     red -6px -6px; /*องศา หนา เบลอ*/
 }
+
+a:hover,
+button:hover {
+  color: greenyellow;
+}
+a:visited {
+  color: palevioletred;
+}
+
+p:first-child {
+  background-color: aquamarine;
+}
+
+/* 
+li:last-child {
+  background-color: blueviolet;
+} */
+
+li:nth-child(odd) {
+  /*เปลี่ยนตัวเลขใน odd ได้*/
+  background-color: gray;
+}
+
+/* p:not(.bold) */
+
+p span {
+  color: brown;
+  font-weight: bolder;
+}

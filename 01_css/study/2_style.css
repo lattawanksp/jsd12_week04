@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(255, 255, 255);  */
+  /*Red,Green,Blue */
+  background-color: aliceblue;
+}
+
+/*
+h1 {
+  border: red solid 8px;
+  width: 500px;
+  -- padding-bottom: 8px;
+  margin-bottom: 18px; นับค่า (บน ขวา ล่าง ซ้าย) --
+  padding: 16px 20px 48px 52px;
+  margin: 0 auto;
+}
+*/
+
+#container {
+  height: 400px;
+  width: 80%;
+  border: 4px solid red;
+  max-width: 700px;
+  min-width: 200;
+}
+
+.box {
+  border: 4px dotted yellowgreen;
+  height: 50%;
+  width: 350px;
+}
